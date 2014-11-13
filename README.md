@@ -4,6 +4,7 @@ h5-turnjs
 ##翻书页效果展示内容
 ---
 #### 1.效果展示
+>http://182.92.69.21/h5/h5turnjs/index.html
 ![img](http://182.92.69.21/images/h5-turnjs/1.png)
 ![img](http://182.92.69.21/images/h5-turnjs/2.png)
 #### 1.turn.js的使用
