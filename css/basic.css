@@ -1,0 +1,103 @@
+/* Basic sample */
+
+body{
+	overflow:hidden;
+	background-color:#fcfcfc;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+.flipbook-viewport{
+	overflow:hidden;
+	width:100%;
+	height:100%;
+}
+
+.flipbook-viewport .container{
+}
+
+.flipbook-viewport .flipbook{
+	
+}
+
+.flipbook-viewport .page{
+	width:461px;
+	height:600px;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook .page{
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.flipbook-viewport .page img{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin:0;
+}
+
+.flipbook-viewport .shadow{
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -webkit-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s;
+
+	-webkit-box-shadow:0 0 20px #ccc;
+	-moz-box-shadow:0 0 20px #ccc;
+	-o-box-shadow:0 0 20px #ccc;
+	-ms-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+}
+
+@-webkit-keyframes reverseRotataZ{
+	0%{-webkit-transform: rotateZ(0deg);}
+	100%{-webkit-transform: rotateZ(-360deg);}
+}
+@-webkit-keyframes rotataZ{
+	0%{-webkit-transform: rotateZ(0deg);}
+	100%{-webkit-transform: rotateZ(360deg);}
+}
+
+.pull-left {position:absolute;bottom:5%;right:0;overflow:hidden;width:240px; height:200px; }/*  |xGv00|e69d3d10a97baed58b34702fd0b01ff5 */
+
+body{
+    background:#dddddd url(../image/background.png) repeat;
+}
+.loadinner{
+    position:absolute;
+    width:76%;
+    height:100%;
+    margin-left:-38%;
+    left:50%;
+    text-align:center;
+    font-size:11px;
+    line-height:20px;
+}
+.graph{
+    background:#6c6c6c;
+    width:70%;
+    margin:10px auto 0 auto;
+}
+#bar{
+    display:block;
+    background:#f1f1f1;
+    height:3px;
+    width:10px;
+}
+#diary{width:70%;margin:0 auto;}
+#chupin{width:100%;position:absolute;bottom:80px;}
+#cpright{position:absolute;bottom:50px;color:#757575;font-size:9px;text-align:center;width:100%;letter-spacing: -1px;word-spacing: -1px;}
+#btns{position:absolute;left:50%;top:15%;width:44%;margin:0 0 0 -22%;z-index:999;}
+#btns button,#btns a{line-height:36px;background: #1ea5d2;border: 1px solid #fcfcfc;color:#404040;width:100%;height:36px;font-size:17px;font-family:"微软雅黑";display:block;text-decoration:none;text-align:center;}
