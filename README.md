@@ -4,7 +4,11 @@ h5-turnjs
 ##翻书页效果展示内容
 ---
 #### 1.效果展示
->http://html.pengqiuyuan.com/h5/h5turnjs/index.html
+[效果](http://html.pengqiuyuan.com/h5/h5turnjs/index.html)
+
+-![img](http://html.pengqiuyuan.com/images/h5-turnjs/1.png)		
+-![img](http://html.pengqiuyuan.com/images/h5-turnjs/2.png)
+
 #### 1.turn.js的使用
 代码：
 ```
