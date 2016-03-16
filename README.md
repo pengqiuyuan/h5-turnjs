@@ -1,14 +1,13 @@
-# h5-turnjs
-
+## h5-turnjs
  - 翻书页[效果](http://html.pengqiuyuan.com/h5/h5turnjs/index.html)展示内容
 
 ![gif6](https://cloud.githubusercontent.com/assets/4953205/13800958/a9777c7c-eb68-11e5-9264-f3478b9b27d8.gif)
 
-#### 1.效果展示
+#### 效果展示
 -![img](https://cloud.githubusercontent.com/assets/4953205/13800902/49858890-eb68-11e5-8b50-b4ace08cbfbd.png)		
 
-#### 1.turn.js的使用
-代码：
+#### turn.js的使用
+
 ```
   <script type="text/javascript">
       $(function progressbar(){
